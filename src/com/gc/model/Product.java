@@ -70,5 +70,7 @@ public class Product {
 		this.listPrice = listPrice;
 	}
 	
-	
+	public String toString() {
+		return "Primary key assigned as 0 is assigning a value of null to the productID" + productID + ", " + code + ", " + description + ", " + listPrice;
+	}
 }

@@ -9,8 +9,10 @@
 	<br>
 	<div style="text-align:center">
 		<h2>
-			Hello World!<br> <br>
+			Hello World!<br><br>
 		</h2>
+		<h4>${indexTest }
+		</h4>
 		<h3>
 			<a href="welcome.html">Click here to see the welcome page</a>
 			(check HomeController.java to view info for @RequestMapping("/welcome"))
